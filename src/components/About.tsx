@@ -108,8 +108,7 @@ const About: React.FC = () => {
                   {[
                     'Entertainment Videos',
                     'Brand Marketing',
-                    'Public Speaking',
-                    ''
+                    'Public Speaking'
                   ].map((value, index) => (
                     <li key={index} className="flex items-center gap-3 text-gray-700 dark:text-gray-300">
                       <div className="w-2 h-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
